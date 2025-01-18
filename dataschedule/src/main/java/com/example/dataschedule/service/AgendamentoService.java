@@ -3,7 +3,6 @@ package com.example.dataschedule.service;
 import com.example.dataschedule.model.Agendamento;
 import com.example.dataschedule.repository.AgendamentoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cglib.core.Local;
 import org.springframework.stereotype.Service;
 
 
