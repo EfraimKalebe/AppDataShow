@@ -15,4 +15,8 @@ public class ProfessorService {
         return professorRepository.save(professor);
     }
 
+    public Professor buscarPorEmail(String email){
+        return professorRepository.findByEmail(email).orElse(null);
+    }
 }
+
