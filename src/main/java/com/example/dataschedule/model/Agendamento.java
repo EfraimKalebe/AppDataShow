@@ -6,6 +6,8 @@ import java.time.LocalDateTime;
 
 @Data
 @Entity
+
+
 public class Agendamento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
